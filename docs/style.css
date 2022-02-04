@@ -1,0 +1,12 @@
+.show {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 5px;
+    transition: width 1s, background-color 1s;
+}
+
+.show:hover {
+    width: 200px;
+    background-color: aqua;
+}
