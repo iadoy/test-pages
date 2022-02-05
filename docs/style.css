@@ -3,10 +3,11 @@
     height: 100px;
     background-color: red;
     border-radius: 5px;
-    transition: width 1s, background-color 1s;
+    transition: width .7s, background-color 1s, height .5s;
 }
 
 .show:hover {
     width: 200px;
+    height: 200px;
     background-color: aqua;
 }
