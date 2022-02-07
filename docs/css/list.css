@@ -1,0 +1,65 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    padding: 3px 0 0 14px;
+    border-left: 1px solid #c81523;
+}
+
+.sk-list {
+    float: left;
+}
+
+.sk-list ul li {
+    float: left;
+}
+
+.sk-list ul li a {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 30px;
+    line-height: 47px;
+    color: black;
+}
+
+.sk-con {
+    float: left;
+}
+
+.sk-con ul li {
+    float: left;
+}
+
+.sk-con ul li a {
+    display: block;
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 49px;
+}
+
+.sk-con ul li img {
+    width: 14px;
+    margin-left: 3px;
+}
+
+.sk-bd ul li {
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+
+.sk-bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk-bd ul li:hover {
+    border: 1px solid #c81523;
+}

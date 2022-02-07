@@ -1,0 +1,256 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.box .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: green;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 33px;
+}
+
+.news-hd .more {
+    float: right;
+    padding: 0 15px;
+    line-height: 33px;
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.news-bd ul li a {
+    line-height: 24px;
+}
+
+.lifeservice {
+    height: 209px;
+    border-left: 1px solid #e4e4e4;
+}
+
+
+.lifeservice ul li {
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice ul li a i {
+    display: inline-block;
+    margin-top: 12px;
+    width: 24px;
+    height: 28px;
+    background: url(../images/icons.png) no-repeat -16px -15px;
+}
+
+.bargain img {
+    margin-top: 5px;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+
+.recom-hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.recom-bd {
+    float: left;
+}
+.recom-bd ul li {
+    float: left;
+    position: relative;
+}
+
+.recom-bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border-right: 1px solid #ddd;
+    height: 145px;
+}
+
+.recom-bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.guess {
+    margin-top: 20px;
+}
+
+.guess-hd {
+    height: 45px;
+}
+
+.guess-hd h3 {
+    float: left;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.guess-hd a {
+    float: right;
+    line-height: 45px;
+}
+
+.guess-hd img {
+    width: 12px;
+    margin: 0 5px;
+    padding-bottom: 2px;
+}
+
+.guess-bd {
+    
+    border: 1px solid #ddd;
+}
+
+.guess-bd ul li {
+    float: left;
+    width: 199px;
+    /* padding-left: 10px; */
+}
+
+.img-center {
+    text-align: center;
+}
+
+.guess-bd ul li div:nth-child(2) {
+    margin-top: 5px;
+    padding: 0 15px;
+}
+
+.guess-bd ul li img {
+    width: 150px;
+}
+
+.guess-bd .price {
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+
+.jiadian {
+    margin-top: 30px;
+}
+
+.jiadian .box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.jiadian .box-hd h3 {
+    float: left;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.jiadian .tab-list {
+    float: right;
+}
+
+.jiadian .tab-list ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.jiadian .tab-list ul li a {
+    padding: 0 15px;
+}
+
+.jiadian .box-bd {
+    height: 361px;  
+}
+
+.tab-list-item>div {
+    float: left;
+}
+
+.col-210 {
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col-210 ul {
+    padding-left: 12px;
+}
+
+.col-210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.col-329 {
+    width: 329px;
+    height: 361px;
+}
+
+.col-221 {
+    width: 221px;
+    height: 361px;
+    border-right: 1px solid #ccc;
+}
+
+.col-219 {
+    width: 219px;
+    height: 361px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
